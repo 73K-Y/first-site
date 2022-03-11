@@ -35,24 +35,6 @@ body {
   padding: 1rem 2rem;
 }
 
-/* HEADER */
-
-header {
-  box-shadow: var(--header-shadow);
-}
-
-header .container {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-}
-
 /* BUTTONS */
 
 .btn {
@@ -177,9 +159,7 @@ section {
     font-size: 1rem;
   }
 }
- 
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*
+
 {
   margin: 0;
   padding: 0;
