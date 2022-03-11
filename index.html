@@ -15,7 +15,9 @@
   </head>
   <body>
     <header>
-      <div class="backgroundsite.mp4"></div>
+      <video autoplay loop muted>
+        <source src="backgroundsite.mp4" type="video/mp4">
+      </video>
         <div class="container">
           <div class="logo">
             <a href="/">
@@ -46,16 +48,17 @@
             </a>
           </div>
         </div>
-      </header>
+    </header>
 
-      <section class="container">
-        <div class="owner-status"></div>
+    <section class="container">
+      <div class="owner-status">
+      </div>
         <div class="countdown">
           <ul
             id="countdown"
             class="count-down"
-            data-date="March 15, 2022 7:00:00 AM UTC"
-          >
+            data-date="March 15, 2022 7:00:00 AM UTC">
+
             <li class="clock-item">
               <span class="count-number days">20</span>
               <p class="count-text">Days</p>
