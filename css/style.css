@@ -7,7 +7,6 @@
   --font-primary: 'Audiowide', sans-serif;
   --font-secondary: 'Bungee', serif;
   --font-code: 'Press Start2P', monospace;
-  --iframe: width="560" height="315" src="https://www.youtube.com/embed/ovWYlMl0zzM?controls=0" frameborder="0" allow="autoplay" allowfullscreen;
   --font-color: #8f83ff;
   --btn-bg-color: #9f68f8;
   --accent-color: #ffffff;
@@ -21,7 +20,6 @@
 }
 
 body {
-  background: var(--iframe);
   display: flex;
   flex-flow: column;
   height: 100vh;
