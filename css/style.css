@@ -188,7 +188,7 @@ header
 {
   position: absolute;
   position: absolute;
-  top: 1px;
+  top: 2.125px;
   left: -99px;
 }
 header .logo
@@ -197,7 +197,7 @@ header .logo
   text-transform: uppercase;
   cursor: pointer;
   position: absolute;
-  top: 73.5px;
+  top: 75.5px;
   left: 255px;
 }
 #parent
