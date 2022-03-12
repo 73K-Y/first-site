@@ -270,7 +270,9 @@ header .logo
 {
   font-size: 1.7em;
   font-weight: 700;
-  color: #0066ff;
+  color: #ffd000;
+  -webkit-text-fill-color: #0066ff;
+  -webkit-text-stroke-width: 0.03125px;
   line-height: 1em;
   text-transform: uppercase;
 }
