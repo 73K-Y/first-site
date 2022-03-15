@@ -173,10 +173,6 @@ header
   justify-content: space-between;
   align-items: center;
 }
-#parent2
-{
-  position: absolute;
-}
 #parent2 img {
   position: absolute;
   width: 200px;
@@ -187,13 +183,8 @@ header
 #parent3
 {
   position: absolute;
-  position: absolute;
   top: 2.125px;
   left: -99px;
-}
-#parent4
-{
-  position: absolute;
 }
 #parent4 img {
   position: absolute;
