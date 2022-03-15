@@ -174,8 +174,8 @@ header
   align-items: center;
 }
 #parent2 img {
-  position: absolute;
-  width: 155px;
+  position: relative;
+  width: 1550px;
   height: 32px;
   top: 100px;
   left: 20px;
