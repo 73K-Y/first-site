@@ -175,7 +175,7 @@ header
 }
 #parent2 img {
   position: relative;
-  width: 1550px;
+  width: 15px;
   height: 32px;
   top: 100px;
   left: 20px;
@@ -190,7 +190,7 @@ header
   position: absolute;
   width: 225px;
   height: 62px;
-  top: -34px;
+  top: 34px;
   left: 464px;
 }
 header .logo
