@@ -174,11 +174,11 @@ header
   align-items: center;
 }
 #parent2 img {
-  position: relative;
-  width: 15px;
-  height: 32px;
-  top: 100px;
-  left: 20px;
+  position: absolute;
+  width: 255px;
+  height: 55px;
+  top: 40px;
+  left: 750px;
 }
 #parent3
 {
@@ -190,16 +190,15 @@ header
   position: absolute;
   width: 225px;
   height: 62px;
-  top: -34px;
-  left: 464px;
+  top: 34px;
+  left: 94px;
 }
-header .logo
-{
+header .logo {
   color: #ffffff;
   text-transform: uppercase;
   cursor: pointer;
   position: absolute;
-  top: 75.5px;
+  top: 47.5px;
   left: 255px;
 }
 #parent
