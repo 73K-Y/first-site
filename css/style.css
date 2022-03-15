@@ -173,17 +173,17 @@ header
   justify-content: space-between;
   align-items: center;
 }
-#parent3 {
-  position: absolute;
-  top: 1.9px;
-  left: -99px;
-}
 #parent2 img {
   position: absolute;
   width: 255px;
   height: 55px;
   top: 40px;
   left: 1400px;
+}
+#parent3 {
+  position: absolute;
+  top: 1.9px;
+  left: -99px;
 }
 #parent4 img {
   position: absolute;
