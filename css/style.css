@@ -174,10 +174,10 @@ header
   align-items: center;
 }
 #parent2 img {
-  position: absolte;
+  position: absolute;
   width: 55px;
   height: 32px;
-  top: 10px;
+  top: 20px;
   left: 20px;
 }
 #parent3
