@@ -174,7 +174,7 @@ header
   align-items: center;
 }
 #parent2 img {
-  position: relative;
+  position: absolte;
   width: 155px;
   height: 132px;
   top: 10px;
