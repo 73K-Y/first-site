@@ -183,14 +183,14 @@ header
 #parent3
 {
   position: absolute;
-  top: 2.125px;
+  top: 20px;
   left: -99px;
 }
 #parent4 img {
   position: absolute;
   width: 225px;
   height: 62px;
-  top: 34px;
+  top: -34px;
   left: 464px;
 }
 header .logo
