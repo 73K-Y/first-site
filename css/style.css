@@ -196,13 +196,13 @@ header .logo {
   color: #ffffff;
   text-transform: uppercase;
   cursor: pointer;
-  position: static;
+  position: absolute;
   top: 46.5px;
   left: 255px;
 }
 #parent
 {
-  position: relative;
+  position: absolute;
 }
 #parent img{
   position: absolute;
