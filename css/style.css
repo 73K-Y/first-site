@@ -178,12 +178,11 @@ header
   width: 255px;
   height: 55px;
   top: 40px;
-  left: 750px;
+  left: 1400px;
 }
-#parent3
-{
+#parent3 {
   position: absolute;
-  top: 20px;
+  top: 1.9px;
   left: -99px;
 }
 #parent4 img {
@@ -198,7 +197,7 @@ header .logo {
   text-transform: uppercase;
   cursor: pointer;
   position: absolute;
-  top: 47.5px;
+  top: 46.5px;
   left: 255px;
 }
 #parent
