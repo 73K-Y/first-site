@@ -207,10 +207,10 @@ header
   position: absolute;
 }
 #parent4 img {
-  position: absolute;
+  position: relative;
   width: 225px;
   height: 62px;
-  top: -34px;
+  top: 25px;
   left: 465px;
 }
 header .logo
@@ -238,32 +238,32 @@ header .logo
 }
 #parent6
 {
-  position: relative;
+  position: absolute;
 }
 #parent6 img{
   position: relative;
   top: 345px;
-  right: 700px;
+  left: 350px;
 }
 #parent7
 {
-  position: relative;
+  position: absolute;
 }
 #parent7 img{
   position: relative;
   top: 645px;
-  right: 1500px;
+  left: 350px;
   width: 470px;
   height: 320px;
 }
 #parent8
 {
-  position: relative;
+  position: absolute;
 }
 #parent8 img{
   position: relative;
   top: 645px;
-  right: 1500px;
+  left: 850px;
 }
 /*
 #parent5
