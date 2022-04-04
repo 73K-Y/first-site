@@ -77,7 +77,17 @@ header .container {
   box-shadow: none;
 }
 
-/* COUNTDOWN SECTION */
+/* Style the video: 100% width and height to cover the entire window */
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* COUNTDOWN SECTION
 
 section {
   flex: 1 1 auto;
@@ -142,7 +152,7 @@ section {
   text-align: center;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES
 
 @media screen and (max-width: 768px) {
   .menu {
@@ -160,6 +170,7 @@ section {
     font-size: 1rem;
   }
 }
+*/
 
 header
 {
@@ -213,15 +224,60 @@ header .logo
 }
 #parent
 {
-  position: relative
-}
-#parent img{
   position: relative;
   width: 1050px;
   height: 425px;
   top: 0.125px;
-  right: 0.125px;
+  left: 225px;
 }
+#parent img{
+  position: relative;
+  width: 1050px;
+  height: 1225px;
+  top: -45px;
+}
+#parent6
+{
+  position: relative;
+}
+#parent6 img{
+  position: relative;
+  top: 345px;
+  right: 700px;
+}
+#parent7
+{
+  position: relative;
+}
+#parent7 img{
+  position: relative;
+  top: 645px;
+  right: 1500px;
+  width: 470px;
+  height: 320px;
+}
+#parent8
+{
+  position: relative;
+}
+#parent8 img{
+  position: relative;
+  top: 645px;
+  right: 1500px;
+}
+/*
+#parent5
+{
+  position: relative
+}
+#parent5 img{
+  position: relative;
+  width: 1500px;
+  height: 1425px;
+  top: 1000px;
+  right: 1065px;
+}
+*/
 .toggle
 {
   position: relative;
@@ -282,7 +338,7 @@ header .logo
 {
   position: absolute;
   top: 55px;
-  right: 52.5px;
+  left: 45px;
   font-size: 2.5em;
   font-weight: 1000;
   color: #fff;
@@ -304,6 +360,21 @@ header .logo
   line-height: 1em;
   text-transform: uppercase;
 }
+/*
+.text c
+{
+  position: absolute;
+  top: 150px;
+  right: 52.5px;
+  font-size: 1.7em;
+  font-weight: 1200;
+  color: #ffd100;
+  -webkit-text-fill-color: #000000;
+  -webkit-text-stroke-width: 0.7px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+*/
 .text p
 {
   position: absolute;
@@ -316,6 +387,128 @@ header .logo
   font-weight: 700;
   max-width: 900px;
 }
+/*
+.text pp
+{
+  position: absolute;
+  top: 225px;
+  right: 72.5px;
+  font-size: 1.1em;
+  color: #000000;
+  -webkit-text-fill-color: #ffd100;
+  -webkit-text-stroke-width: 0.0325px;;
+  font-weight: 700;
+  max-width: 900px;
+}
+.text p1
+{
+  position: absolute;
+  top: 795px;
+  right: 72.5px;
+  font-size: 1.1em;
+  color: #000000;
+  -webkit-text-fill-color: #ffd100;
+  -webkit-text-stroke-width: 0.0325px;;
+  font-weight: 700;
+  max-width: 900px;
+}
+.text p2
+{
+  position: absolute;
+  top: 825px;
+  right: 72.5px;
+  font-size: 1.1em;
+  color: #000000;
+  -webkit-text-fill-color: #ffd100;
+  -webkit-text-stroke-width: 0.0325px;;
+  font-weight: 700;
+  max-width: 900px;
+}
+.text p3
+{
+  position: absolute;
+  top: 855px;
+  right: 72.5px;
+  font-size: 1.1em;
+  color: #000000;
+  -webkit-text-fill-color: #ffd100;
+  -webkit-text-stroke-width: 0.0325px;;
+  font-weight: 700;
+  max-width: 900px;
+}
+.text p4
+{
+  position: absolute;
+  top: 885px;
+  right: 72.5px;
+  font-size: 1.1em;
+  color: #000000;
+  -webkit-text-fill-color: #ffd100;
+  -webkit-text-stroke-width: 0.0325px;;
+  font-weight: 700;
+  max-width: 900px;
+}
+.text p5
+{
+  position: absolute;
+  top: 915px;
+  right: 72.5px;
+  font-size: 1.1em;
+  color: #000000;
+  -webkit-text-fill-color: #ffd100;
+  -webkit-text-stroke-width: 0.0325px;;
+  font-weight: 700;
+  max-width: 900px;
+}
+.text p6
+{
+  position: absolute;
+  top: 945px;
+  right: 72.5px;
+  font-size: 1.1em;
+  color: #000000;
+  -webkit-text-fill-color: #ffd100;
+  -webkit-text-stroke-width: 0.0325px;;
+  font-weight: 700;
+  max-width: 900px;
+}
+.text p7
+{
+  position: absolute;
+  top: 975px;
+  right: 72.5px;
+  font-size: 1.1em;
+  color: #000000;
+  -webkit-text-fill-color: #ffd100;
+  -webkit-text-stroke-width: 0.0325px;;
+  font-weight: 700;
+  max-width: 900px;
+}
+.text p8
+{
+  position: absolute;
+  top: 1005px;
+  right: 72.5px;
+  font-size: 1.1em;
+  color: #000000;
+  -webkit-text-fill-color: #ffd100;
+  -webkit-text-stroke-width: 0.0325px;;
+  font-weight: 700;
+  max-width: 900px;
+}
+.text p9
+{
+  position: absolute;
+  top: 1035px;
+  right: 72.5px;
+  font-size: 1.1em;
+  color: #000000;
+  -webkit-text-fill-color: #ffd100;
+  -webkit-text-stroke-width: 0.0325px;;
+  font-weight: 700;
+  max-width: 900px;
+}
+*/
 .text a
 {
   position: absolute;
