@@ -207,10 +207,10 @@ header
   position: absolute;
 }
 #parent4 img {
-  position: relative;
+  position: absolute;
   width: 225px;
   height: 62px;
-  top: 25px;
+  top: -34px;
   left: 465px;
 }
 header .logo
@@ -263,7 +263,7 @@ header .logo
 #parent8 img{
   position: relative;
   top: 645px;
-  left: 850px;
+  left: 750px;
 }
 /*
 #parent5
@@ -533,9 +533,7 @@ header .logo
 .menu
 {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 300px;
+  width: 1165px;
   height: 100%;
   display: flex;
   justify-content: center;
